@@ -1,0 +1,8 @@
+name: 'Princeton University Survey'
+type: module
+description: 'A simple module that renders a modal in a block'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:node
+  - drupal:config

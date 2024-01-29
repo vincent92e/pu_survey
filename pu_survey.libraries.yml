@@ -1,0 +1,6 @@
+survey_modal:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/pu-survey.js: {}

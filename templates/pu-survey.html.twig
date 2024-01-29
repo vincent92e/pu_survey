@@ -1,0 +1,13 @@
+{{ attach_library('pu_survey/survey_modal') }}
+
+{% if headline %}
+    <h2>{{ headline }}</h2>
+{% endif %}
+
+{% if invitation_message %}
+    <div>{{ invitation_message }}</div>
+{% endif %}
+
+{% if button_label %}
+    <div><button class="pu-button button">{{ button_label }}</button></div>
+{% endif %}

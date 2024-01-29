@@ -1,0 +1,28 @@
+block.settings.survey_invitation:
+  type: block_settings
+  label: 'Survey Invitation block'
+  mapping:
+    news:
+      type: mapping
+      mapping:
+        headline:
+          type: label
+          label: Headline
+        invitation_message:
+          type: label
+          label: Invitation message
+        button_label:
+          type: label
+          label: Button label
+    others:
+      type: mapping
+      mapping:
+        headline:
+          type: label
+          label: Headline
+        invitation_message:
+          type: label
+          label: Invitation message
+        button_label:
+          type: label
+          label: Button label

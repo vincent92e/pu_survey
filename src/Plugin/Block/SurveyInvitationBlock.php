@@ -147,9 +147,9 @@ final class SurveyInvitationBlock extends BlockBase implements ContainerFactoryP
     // Render data using the 'pu_survey' theme function.
     $build['content'] = [
       '#theme' => 'pu_survey',
-      '#headline' => ($node->bundle() === 'news') ? $config['news']['headline'] : $config['others']['headline'],
-      '#invitation_message' => ($node->bundle() === 'news') ? $config['news']['invitation_message'] : $config['others']['invitation_message'],
-      '#button_label' => ($node->bundle() === 'news') ? $config['news']['button_label'] : $config['others']['button_label'],
+      '#headline' => ($node?->bundle() === 'news') ? $config['news']['headline'] : $config['others']['headline'],
+      '#invitation_message' => ($node?->bundle() === 'news') ? $config['news']['invitation_message'] : $config['others']['invitation_message'],
+      '#button_label' => ($node?->bundle() === 'news') ? $config['news']['button_label'] : $config['others']['button_label'],
       '#attached' => [
         'drupalSettings' => [
           'pu_survey' => [

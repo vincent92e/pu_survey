@@ -4,3 +4,8 @@ survey_modal:
       css/style.css: {}
   js:
     js/pu-survey.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
+    - core/drupalSettings
